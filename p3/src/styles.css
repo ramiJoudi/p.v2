@@ -1,7 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
 /* general styles */
 
 body {
     font-family: "Raleway", sans-serif !important;
+    color: #333333c7;
   }
   
   ul {
@@ -205,7 +207,7 @@ body {
   
   .aboutme {
 	  
-    background: url("../assets/emile-perron-xrVDYZRGdw4-unsplash.jpg")
+    background: url("./assets/laurenz-heymann-oeUioo29Q14-unsplash.jpg")
 	
       no-repeat;
     background-size: cover;
@@ -328,7 +330,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 110px;
+    width: 170px;
     font-weight: bold;
     font-size: 13px;
     color: #fff;
@@ -394,12 +396,12 @@ body {
   }
   
   .fp-controlArrow.fp-next {
-    background: black;
-    right: 45px ;
+    border-color: transparent transparent transparent #ff6363 !important;
+    right: 45px !important;
   }
   
   .fp-controlArrow.fp-prev {
-    border-color:   #ff6363  ;
+    border-color: transparent #ff6363 transparent transparent !important;
     left: 45px !important;
   }
   

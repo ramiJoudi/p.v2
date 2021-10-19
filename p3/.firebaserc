@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "joudi-rami": {
+      "hosting": {
+        "p3": [
+          "joudi-rami"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "joudi-rami"
+  }
+}
